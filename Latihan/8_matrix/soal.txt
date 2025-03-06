@@ -1,0 +1,8 @@
+Deskripsi Soal:
+Buatlah kelas Matrix dalam C++ yang mendukung operasi berikut:
+
+Penjumlahan dua matriks menggunakan operator +.
+Pengurangan dua matriks menggunakan operator -.
+Akses elemen matriks menggunakan operator [] (subscript).
+Input/output elemen matriks menggunakan operator << dan >>.
+Implementasikan header file (Matrix.hpp) dan file sumber (Matrix.cpp) sesuai dengan ketentuan.

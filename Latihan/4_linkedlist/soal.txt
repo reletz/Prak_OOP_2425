@@ -1,0 +1,21 @@
+Soal: Implementasi Singly Linked List
+Anda diminta untuk mengimplementasikan Singly Linked List dengan beberapa operasi dasar.
+
+Spesifikasi
+Atribut:
+
+Sebuah struct Node yang berisi:
+data (integer, data di dalam node).
+Pointer next (menunjuk ke node berikutnya).
+Pointer head untuk menunjuk ke awal Linked List.
+
+Method:
+Constructor: Menginisialisasi head ke nullptr.
+insertAtBeginning(int value): Menambahkan node baru di awal Linked List.
+insertAtEnd(int value): Menambahkan node baru di akhir Linked List.
+deleteByValue(int value): Menghapus node pertama yang memiliki nilai tertentu.
+display(): Menampilkan semua elemen dalam Linked List.
+
+Petunjuk:
+Gunakan class untuk mengimplementasikan Linked List.
+Tulis header file (LinkedList.hpp) dan file implementasi (LinkedList.cpp).

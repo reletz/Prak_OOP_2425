@@ -1,0 +1,18 @@
+Soal
+Buatlah program untuk mengelola data buku dalam sebuah perpustakaan menggunakan kelas. 
+Kelas tersebut harus memiliki:
+
+Atribut:
+title (judul buku, string)
+author (pengarang buku, string)
+year (tahun terbit, int)
+
+Method:
+Constructor: Untuk menginisialisasi atribut buku.
+setData(): Untuk mengatur data buku.
+printData(): Untuk mencetak data buku ke layar.
+compareYear(): Membandingkan tahun terbit dua buku dan mencetak buku mana yang lebih baru.
+
+Petunjuk:
+Implementasikan fungsi-fungsi di atas dalam file .cpp.
+Anda akan diberi header file (.hpp) sebagai panduan.

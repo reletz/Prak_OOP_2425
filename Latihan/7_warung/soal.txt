@@ -1,0 +1,40 @@
+Buatlah kelas bernama Menu untuk merepresentasikan menu makanan di sebuah warung. 
+
+Setiap menu memiliki atribut:
+name: Nama menu (string).
+price: Harga menu (float).
+stock: Jumlah stok menu (integer).
+
+Spesifikasi:
+Implementasikan Constructor, Copy Constructor, Destructor, dan Copy Assignment Operator untuk kelas ini.
+Overload operator:
+Operator += : Menambah stok menu.
+Operator -= : Mengurangi stok menu.
+
+Buat program utama untuk mengelola menu makanan:
+Tambahkan stok makanan.
+Kurangi stok makanan saat makanan dijual.
+
+(Menu.hpp dan main.hpp diberikan.)
+
+Output yang diharapkan:
+
+Constructor called for Menu: Nasi Goreng
+Copy Constructor called for Menu: Nasi Goreng
+Constructor called for Menu: Mie Goreng
+Copy Assignment Operator called for Menu: Nasi Goreng
+
+Initial Menus:
+Name: Nasi Goreng, Price: 20, Stock: 10
+Name: Nasi Goreng, Price: 20, Stock: 10
+Name: Nasi Goreng, Price: 20, Stock: 10
+
+Adding stock to Menu 1...
+Name: Nasi Goreng, Price: 20, Stock: 15
+
+Selling items from Menu 1...
+Name: Nasi Goreng, Price: 20, Stock: 7
+
+Destructor called for Menu: Nasi Goreng
+Destructor called for Menu: Nasi Goreng
+Destructor called for Menu: Nasi Goreng

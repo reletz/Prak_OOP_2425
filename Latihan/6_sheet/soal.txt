@@ -1,0 +1,30 @@
+Studi Kasus: Lembaran Kertas
+Buatlah kelas bernama Sheet untuk merepresentasikan selembar kertas. Kelas ini memiliki atribut:
+id: ID dari lembaran kertas (integer).
+type: Jenis kertas (string, misalnya "A4", "A5", dll.).
+
+Spesifikasi:
+Implementasikan Constructor, Copy Constructor, Destructor, dan Copy Assignment Operator.
+
+Pastikan setiap pemanggilan method ini mencetak pesan sesuai format berikut:
+Constructor: ctor <id>
+Copy Constructor: cctor <id>
+Destructor: dtor <id>
+Copy Assignment Operator: assign <id>
+
+Buat program utama (main.cpp) untuk:
+Membuat objek Sheet.
+Menyalin objek menggunakan copy constructor.
+Menyalin objek menggunakan copy assignment operator.
+
+Output yang diharapkan:
+ctor 1
+ctor 2
+cctor 1
+assign 1
+assign 2
+dtor 2
+dtor 1
+dtor 2
+
+https://www.ibm.com/docs/en/zos/2.4.0?topic=only-copy-assignment-operators-c

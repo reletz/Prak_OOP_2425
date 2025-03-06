@@ -1,0 +1,18 @@
+Soal: Sistem Manajemen Produk
+Buatlah sebuah program untuk mengelola data produk menggunakan kelas dalam C++. Setiap produk memiliki atribut berikut:
+
+id: ID produk (integer, unik).
+name: Nama produk (string).
+price: Harga produk (float).
+
+Kelas Product harus memiliki:
+
+Constructor (ctor): Untuk menginisialisasi data produk.
+Copy Constructor (cctor): Untuk membuat salinan data produk saat objek disalin.
+Destructor (dtor): Untuk membersihkan sumber daya saat objek dihancurkan (misalnya, mencetak pesan untuk debugging).
+
+Selain itu, buat kelas ProductManager untuk mengelola beberapa produk:
+1. Menyimpan daftar produk dalam array dinamis.
+2. Memiliki operasi:
+Menambahkan produk ke dalam daftar.
+Menampilkan semua produk.

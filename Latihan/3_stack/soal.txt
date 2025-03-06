@@ -1,0 +1,21 @@
+Soal: Implementasi ADT Stack
+Anda diminta untuk mengimplementasikan ADT Stack menggunakan kelas dalam C++. 
+Stack adalah struktur data dengan prinsip LIFO (Last In, First Out), di mana elemen terakhir yang dimasukkan adalah elemen pertama yang keluar.
+
+Spesifikasi
+
+Atribut:
+Sebuah array untuk menyimpan elemen stack.
+Sebuah integer untuk melacak posisi elemen teratas (top).
+
+Method:
+Constructor: Untuk menginisialisasi stack kosong.
+push(int value): Untuk menambahkan elemen ke stack.
+pop(): Untuk menghapus elemen dari stack.
+peek(): Untuk melihat elemen teratas stack tanpa menghapusnya.
+isEmpty(): Untuk memeriksa apakah stack kosong.
+isFull(): Untuk memeriksa apakah stack penuh.
+
+Petunjuk:
+Tetapkan ukuran maksimum stack sebagai konstanta (const int MAX_SIZE = 100;).
+Implementasi harus modular dengan file header (Stack.hpp) dan file implementasi (Stack.cpp).

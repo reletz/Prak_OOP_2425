@@ -1,0 +1,30 @@
+Soal 1:
+Sebuah sistem penyewaan kendaraan memiliki beberapa kendaraan yang diidentifikasi secara unik melalui nomor kendaraan (integer). Setiap kendaraan tergolong dalam suatu kategori tertentu, yaitu Bus, Minibus, dan Mobil. Selain itu, setiap kendaraan memiliki informasi: merk (string) dan tahun keluaran (integer).
+
+1. Buatlah semua operator 4 sekawan untuk kelas Kendaraan:
+   - Buat 2 buah konstruktor: default dan user-defined.
+   - Konstruktor default: nomor = 0; tahun_keluaran = 0; merk = "XXX"; kategori = "mobil".
+
+2. Kendaraan dapat menerima pesan berikut:
+   - printInfo: Mencetak semua informasi yang dimiliki oleh Kendaraan (format pencetakan bebas).
+   - biayaSewa(int lamaSewa): Menghitung dan menghasilkan biaya peminjaman dengan kebijakan berbeda tergantung jenis Kendaraan sebagai berikut:
+     
+     | No | Jenis Kendaraan | Biaya Sewa (dalam Rupiah) |
+     |----|-----------------|---------------------------|
+     | 1  | Bus             | 1 juta × lamaSewa         |
+     | 2  | Minibus         | Jika lamaSewa ≤ 5 hari, maka 5 juta. Jika lebih, 5 juta + 500 ribu × (lamaSewa - 5) |
+     | 3  | Mobil           | 500 ribu × lamaSewa       |
+
+Soal 2:
+Masih berkaitan dengan Soal 1, buatlah sebuah kelas baru bernama KoleksiKendaraan yang merepresentasikan semua Kendaraan yang dimiliki oleh sebuah perusahaan rental.
+
+Petunjuk: Gunakan array of Kendaraan sebagai memori internal untuk menyimpan kumpulan Kendaraan. Ukuran array tergantung konstruktor yang dipanggil.
+
+1. Buat semua operator 4 sekawan untuk kelas KoleksiKendaraan:
+   - Konstruktor default: size = 100, Neff = 0.
+   - Konstruktor user-defined: Parameter masukan adalah size. Neff = 0.
+
+2. KoleksiKendaraan dapat menerima pesan berikut:
+   - printAll: Mencetak data semua kendaraan dalam KoleksiKendaraan dengan mengirimkan pesan printInfo ke setiap Kendaraan yang disimpan.
+   - operator<<(Kendaraan): Menambahkan sebuah Kendaraan ke dalam array sebagai elemen terakhir. Diasumsikan selalu ada tempat di memori array.
+   - operator<<(KoleksiKendaraan): Menambahkan semua Kendaraan dari KoleksiKendaraan lain ke dalam array. Jika jumlah Kendaraan yang ditambahkan melebihi kapasitas array, maka hanya yang dapat dimuat saja yang ditampung.
