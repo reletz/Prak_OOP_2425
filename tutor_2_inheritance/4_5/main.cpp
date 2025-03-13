@@ -1,9 +1,9 @@
-#include "Pokemon.cpp"
-#include "WaterPokemon.cpp"
-#include "FirePokemon.cpp"
-#include "GrassPokemon.cpp"
+#include "Pokemon.hpp"
+#include "WaterPokemon.hpp"
+#include "FirePokemon.hpp"
+#include "GrassPokemon.hpp"
 
-// 4
+// // 4
 // int main(){
 //   FirePokemon f1("Charmander");
 //   WaterPokemon w1("Squirtle", 100, 20, 10);
@@ -32,6 +32,7 @@ int main(){
   WaterPokemon* w2 = new WaterPokemon("Magikarp");
   *w2 = w1;
 
+  w2->attack(*f1);
   w2->attack(*f1);
 
   delete f1;

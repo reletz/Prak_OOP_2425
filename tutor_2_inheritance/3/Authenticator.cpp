@@ -28,7 +28,7 @@ void Authenticator::login(const string &username, const string &password){
     if (users[i]->getUsername() == username){
       User user(*users[i]);
       if (user.checkPassword(password)){
-        cout << "Sukses: Login berhasil! Selamat datang, " << username << '.\n';
+        cout << "Sukses: Login berhasil! Selamat datang, " << username << ".\n";
         *currentUser = user;
       }
       else { 
@@ -66,3 +66,7 @@ void Authenticator::setResource(const string& newResource){
   }
 }
 
+Authenticator::~Authenticator(){
+  delete currentUser;
+  delete users;
+}

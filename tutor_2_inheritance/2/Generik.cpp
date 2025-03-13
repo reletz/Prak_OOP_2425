@@ -15,7 +15,7 @@ void func(B param1, C param2){
 template<>
 void func<char, int>(char param1, int param2){
     for (int i = 0; i < param2; i++){
-        cout << param1;
+        cout << param1 << '\n';
     }
 }
 
