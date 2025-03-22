@@ -9,8 +9,8 @@ int main(){
     Invoker *i1 = new Invoker(10, 1000);
     i1->useSkill();
     Invoker *i2 = new Invoker(*i1);
-    Hero &h1 = *i1;
-    h1.heal(1);
+    Hero* h1 = i1;
+    h1->heal(1);
 
     Invoker *i3 = new Invoker(50, 200);
     i3->move(10,25);
@@ -34,3 +34,4 @@ int main(){
 
     return 0;
 }
+
